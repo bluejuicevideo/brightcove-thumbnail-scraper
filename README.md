@@ -4,17 +4,19 @@ A simple scaper to fetch all thumbnails from your Brightcove Video Cloud account
 
 ## Installation
 
-Download and install dependencies:
+1) Download the project
+
+2) Install dependencies:
 `npm install`
 or
 `yarn`
 
-Copy the example `.env` configuration.
+3) Copy the example `.env` configuration.
 ```
 cp .env.example .env
 ```
 
-Add your Brightcove API token:
+4) Add your Brightcove API token to `.env`:
 ```
 BRIGHTCOVE_API_TOKEN=[your-api-token]
 ```
