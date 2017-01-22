@@ -1,4 +1,11 @@
 {
+    "private": true,
+    "name": "brightcove-thumbnail-scraper",
+    "version": "1.0.0",
+    "description": "Scrape video thumbnails from the Brightcove API",
+    "main": "index.js",
+    "author": "Dec Norton <dec@bluejuice.co.uk>",
+    "license": "ISC",
     "scripts": {
         "start": "node index"
     },
@@ -10,5 +17,6 @@
         "mkdirp": "^0.5.1",
         "request": "^2.79.0",
         "slug": "^0.9.1"
-    }
+    },
+    "devDependencies": {}
 }
